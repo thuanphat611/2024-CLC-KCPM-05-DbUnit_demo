@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<!--    Mọi người nên coi video demo trước rồi chạy sau-->
+    <users id="1" name="John Doe" email="john.doe@example.com" gender="MALE" provider="local" created_date="2024-06-25 15:09:27.24696" updated_date="2024-06-25 15:09:27.24696"/>
+    <users id="2" name="Jane Smith" email="jane.smith@example.com"  gender="MALE" provider="local" created_date="2024-06-25 15:09:27.24696" updated_date="2024-06-25 15:09:27.24696"/>
+
+    <user_additional_emails user_id="1" additional_emails="john.doe2@example.com"/>
+
+    <groups id="1" name="Group 1" status="ACTIVE" created_date="2024-06-25 15:09:27.24696" updated_date="2024-06-25 15:09:27.24696"/>
+    <group_user id="1" group_id="1" user_id="1" is_mentor="false"/>
+</dataset>
